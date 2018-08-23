@@ -1,5 +1,5 @@
 {
-  "name": "lockerapi",
+  "name": "nodejs-application",
   "version": "1.0.0",
   "description": "locker api for liiteri",
   "main": "index.js",

@@ -2,7 +2,6 @@
 
 import { Router, NextFunction, Request, Response } from "express";
 import HomeAPI from './home';
-import LockApi  from './lock'
 import LogAPI from "./log";
 export default class Api {
     constructor(app) {
@@ -13,7 +12,6 @@ export default class Api {
 
     loadRouteGroups() {
         this.routeGroups.push(new HomeAPI());
-        this.routeGroups.push(new LockApi());
         this.routeGroups.push(new LogAPI());
         
     }
